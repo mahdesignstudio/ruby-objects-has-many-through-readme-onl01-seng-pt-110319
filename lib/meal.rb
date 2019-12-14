@@ -4,7 +4,7 @@ attr_accessor :water, :customer, :total, :tip
 
 @@all = [ ]
 
-  def initializes(waiter, customer, total, tip=0)
+  def initialize(waiter, customer, total, tip=0)
     @waiter = waiter 
     @customer = customer 
     @total = total 
